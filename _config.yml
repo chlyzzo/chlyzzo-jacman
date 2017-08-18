@@ -1,8 +1,8 @@
-﻿##### Menu
+##### Menu
 menu:
   主页: /
   归档: /archives
-  关于: /about
+  作者: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -10,7 +10,7 @@ menu:
 ## title: tags (or categories)
 ## ---
 
-#### 控件
+####
 widgets:
 #- github-card
 - category
@@ -28,35 +28,34 @@ github-card:
 
 ####weibo
 weibo:
-  山上掏金: http://weibo.com/1724571293
+  微博: http://weibo.com/1724571293
 
 #### RSS
 rss: /atom.xml ## RSS address.
 
-#### 图片相关
+####
 imglogo:
-  enable: true             ## 是否显示网站logo
+  enable: true             ##
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
-favicon: img/favicon.ico   ## 网站图标
-apple_icon: img/logo.png   ## 背景
-author_img: img/author.png ## 作者头像
-banner_img: img/banner2.jpg ## 顶部图像,
+favicon: img/favicon.ico   ##
+apple_icon: img/logo.png   ##
+author_img: img/author.png ##
+banner_img: img/banner2.jpg ##
 
 ### Theme Color
 theme_color:
     theme: '#2ca6cb'    ##the defaut theme color is blue
 
-# 代码高亮主题
 # available: default | night
 highlight_theme: default
 
-#### 首页相关
+####
 index:
-  expand: false           ## 不展开文章
+  expand: false           ##
   excerpt_link: Read More
 
 close_aside: false  #close sidebar in post page if true
-mathjax: true      #公式开启
+mathjax: true      #
 
 ### Creative Commons License Support, see http://creativecommons.org/
 ### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
@@ -66,7 +65,7 @@ creative_commons: none
 author:
   intro_line1:  "分享即是收获，动手后才是自己的."    ##
   #intro_line2:  ""  ##
-  #weibo_verifier: 570da6d5 #微博秀
+  #weibo_verifier: 570da6d5 #΢����
   weibo: 1724571293     ## e.g. http://weibo.com/217628789
   tsina: 1724571293    ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
@@ -90,8 +89,8 @@ toc:
 #### Links
 links:
   Flink: http://flink.apache.org/
-  安卓: http://www.rogerblog.cn/
-
+  roger: http://www.rogerblog.cn/
+  darcy: https://lintingbin2009.github.io/
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
@@ -111,7 +110,7 @@ google_analytics:
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
   enable: true
-  sitecode: 429f38d3d6ccb4eb5fdff3bcb2e9bb80 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode: 81e8b61e30a0723ad6270902dbcf0bb6 ## e.g.
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
