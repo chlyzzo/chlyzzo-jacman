@@ -1,4 +1,4 @@
-##### Menu
+﻿##### Menu
 menu:
   主页: /
   归档: /archives
@@ -35,7 +35,7 @@ rss: /atom.xml ## RSS address.
 
 ####
 imglogo:
-  enable: true             ##
+  enable: false             ##
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
 favicon: img/favicon.ico   ##
 apple_icon: img/logo.png   ##
@@ -88,12 +88,11 @@ toc:
 
 #### Links
 links:
-  Flink: http://flink.apache.org/
-  roger: http://www.rogerblog.cn/
-  darcy: https://lintingbin2009.github.io/
+  amoyw: http://www.amoyw.com
+  terrancy: http://blog.terrancy.com/
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+duoshuo_shortname:    ## e.g. your duoshuo short name.
+disqus_shortname:     ## e.g. your disqus short name.
 
 #### Share button
 jiathis:
@@ -139,3 +138,20 @@ baidu_search:     ## http://zn.baidu.com/
 tinysou_search:     ## http://tinysou.com/
   enable: false
   id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
+
+donate:
+  enable: true
+  text: 只卖艺不卖身，客官打赏，给您来段50的
+  wechat: http://chloy.com/images/wechatpay.png
+  alipay: http://chloy.com/images/alipay.png
+  web: true
+
+#gitalk settings
+gitalk:
+  enable: false #用来做启用判断可以不用
+  owner: chlyzzo #Github 用户名,
+  repo: chlyzzo.github.io #储存评论issue的github仓库名
+  admin: chlyzzo #Github 用户名,
+  clientID: 9cc4ad70a7ea08a5e2ee #`Github Application clientID`
+  clientSecret: 90a96ec418401a19b45f8d76efaf3a345aec3367 #`Github Application clientSecret`
+  distractionFreeMode: true
