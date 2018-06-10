@@ -1,0 +1,16 @@
+<div id="skPlayer">
+       
+       <script src="<%- config.root %>js/skPlayer.min.js"></script>
+       <script type="text/javascript">
+          var musicPlayer = new skPlayer({
+                        autoplay: true,
+                        listshow: true,
+                        mode: 'listloop',
+                        music: {
+                                type: 'cloud',
+                                source: '506258704'
+                               }
+                        });
+           musicPlayer.render('skPlayer')
+      </script>
+</div>

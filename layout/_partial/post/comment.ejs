@@ -1,4 +1,4 @@
-<% if (theme.duoshuo_shortname && page.comments){ %>
+﻿<% if (theme.duoshuo_shortname && page.comments){ %>
 <section id="comments" class="comment">
 	<div class="ds-thread" data-thread-key="<%- page.path %>" data-title="<%- page.title %>" data-url="<%- page.permalink %>"></div>
 </section>
@@ -10,20 +10,27 @@
   </div>
 </section>
 <% } %>
-<% if (theme.gitalk) { %>
-    <div id="gitalk-container">
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-      <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-      <script type="text/javascript">
+<% if (theme.gentie_key && page.comments){ %>
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<% } %>
+<% if (theme.changyan_appid && page.comments){ %>
+<div id="SOHUCS" style="width: 95%;"></div>
+<% } %>
+<% if (theme.gitalk && page.comments){ %>
+    <div id="gitalk-container" style="display: inline-block; width: 90%; margin-left: 4%;"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="<%- config.root %>js/gitalk.js"></script>
+    <script src="<%- config.root %>js/md5.min.js"></script>
+    <script type="text/javascript">
         var gitalk = new Gitalk({
-          clientID: '9cc4ad70a7ea08a5e2ee',
-          clientSecret: '90a96ec418401a19b45f8d76efaf3a345aec3367',
-          repo: 'https://github.com/chlyzzo/chlyzzo.github.io',
-          owner: 'chlyzzo',
-          admin: 'chlyzzo',
-          id: window.location.pathname
-        }) 
-       gitalk.render('gitalk-container')        
-      </script>
-    </div>
+            clientID: '9cc4ad70a7ea08a5e2ee',
+            clientSecret: '90a96ec418401a19b45f8d76efaf3a345aec3367',
+            repo: 'chlyzzo.github.io',
+            id: md5(location.pathname),
+            distractionFreeMode: true,
+            owner: 'chlyzzo',
+            admin: ['chlyzzo']
+        });
+        gitalk.render('gitalk-container')
+    </script>
 <% } %>

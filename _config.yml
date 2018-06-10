@@ -16,6 +16,7 @@ widgets:
 - category
 - tag
 - links
+- skplayer
 #- douban
 #- rss
 #- weibo
@@ -88,11 +89,15 @@ toc:
 
 #### Links
 links:
-  amoyw: http://www.amoyw.com
-  terrancy: http://blog.terrancy.com/
+  文龙: http://www.amoyw.com
+  汉东: http://blog.terrancy.com/
+  蓝胖: https://dybgit.github.io/
 #### Comment
-duoshuo_shortname:    ## e.g. your duoshuo short name.
-disqus_shortname:     ## e.g. your disqus short name.
+duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+disqus_shortname:     ## e.g. wuchong   your disqus short name.
+gentie_key:           ## your 163 gentie key, see https://gentie.163.com/
+changyan_appid: ## cytBq4uDL      ## changyan app id, see http://changyan.kuaizhan.com/
+changyan_appkey: ## 525d9ebeb008b0d3d526cfab0e8b5eb8     ## changyan app key, see http://changyan.kuaizhan.com/
 
 #### Share button
 jiathis:
