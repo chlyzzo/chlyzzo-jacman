@@ -1,7 +1,9 @@
 ﻿hexo 构建博客使用jacman主题。
 
-该主题经chlyzzo修改，样式见[山上掏金](https://chlyzzo.github.io/)的博客。
+该主题经chlyzzo修改，样式见[山上掏金](http://chloy.com/)的博客。
 
-欢迎提供主题的其他完善和修改，比如文章的更新时间，阅读数，评论留言等。
-
-
+更改了右侧栏显示；
+新增gitalk评论；
+新增skplayer音乐播放器；
+新增打赏功能；
+新增站点访问统计；
